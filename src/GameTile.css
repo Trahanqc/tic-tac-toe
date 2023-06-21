@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Paytone+One&display=swap");
+
+.gameTile {
+  align-items: center;
+  background-color: #4c4c4c;
+  color: #ffffff;
+  display: flex;
+  flex: 1 0 calc(33.33% - 10px);
+  font-family: "Paytone One";
+  font-size: 2.5rem;
+  height: 125px;
+  justify-content: center;
+  justify-content: center;
+  margin: 5px;
+  max-height: 125px;
+  user-select: none;
+}
+
+.gameTile.winningTile {
+  color: #8bc34a;
+}
+
+.gameTile.playable:hover {
+  background-color: #808080;
+  cursor: pointer;
+}
+
+.gameTile:first-child {
+  border-top-left-radius: 10px;
+}
+
+.gameTile:nth-child(3) {
+  border-top-right-radius: 10px;
+}
+
+.gameTile:nth-child(7) {
+  border-bottom-left-radius: 10px;
+}
+
+.gameTile:last-child {
+  border-bottom-right-radius: 10px;
+}

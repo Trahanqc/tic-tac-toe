@@ -1,0 +1,7 @@
+.actionGameButton {
+  background-color: #0f425e;
+}
+
+.actionGameButton:hover {
+  border-color: #707070;
+}
