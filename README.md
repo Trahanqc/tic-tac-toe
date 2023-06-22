@@ -2,6 +2,8 @@
 
 A simple tic-tac-toe game made with React+Typescript.
 
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/trahanqc/tic-tac-toe/blob/main/LICENSE)
+
 ## Installation
 
 To install this application and be able to run it, you need to first install the dependencies.
