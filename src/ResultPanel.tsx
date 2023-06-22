@@ -24,7 +24,7 @@ export const ResultPanel = ({ gameState, gameTurns }: ResultPanelProps) => {
         break;
       default:
         // TODO - This should throw an error
-        message = "Undefined game state";
+        message = "Unexpected error: undefined game state";
     }
 
     return message;
